@@ -1,0 +1,14 @@
+{
+  "name": "mirai-creative-lab devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "node",
+  "forwardPorts": [5173],
+  "postCreateCommand": "npm install",
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}
