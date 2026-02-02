@@ -1,6 +1,7 @@
 import { ExternalLink, Video, Camera, Megaphone, Instagram } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import LazyVideo from "./LazyVideo";
 import tvVid from "@/assets/videos/1026.mp4";
 
 const clients = [
@@ -76,15 +77,14 @@ const MiraiStudio = () => {
           <div className="mt-12 max-w-3xl mx-auto relative animate-on-scroll-scale" style={{ animationDelay: "200ms" }}>
             {/* TV Frame/Border */}
             <div className="relative z-10 p-2 md:p-3 bg-card border-[6px] md:border-[10px] border-secondary rounded-[2rem] shadow-2xl overflow-hidden aspect-video">
-              <video
+              <LazyVideo
+                src={tvVid}
                 autoPlay
                 loop
                 muted
                 playsInline
                 className="w-full h-full object-cover rounded-xl"
-              >
-                <source src={tvVid} type="video/mp4" />
-              </video>
+              />
 
               {/* Screen Reflection/Glow Effect */}
               <div className="absolute inset-x-0 top-0 h-1/2 bg-white/5 pointer-events-none skew-y-[-10deg] -translate-y-1/2" />

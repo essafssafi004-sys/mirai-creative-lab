@@ -1,5 +1,6 @@
 import { ExternalLink, Shirt } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import LazyVideo from "./LazyVideo";
 import resvid from "@/assets/resvid.mp4";
 import futureImg from "@/assets/future.webp";
 import chaosImg from "@/assets/chaos.webp";
@@ -51,15 +52,14 @@ const Projects = () => {
   return (
     <section id="work" className="section-padding relative overflow-hidden bg-secondary/30">
       <div className="absolute inset-0 z-0">
-        <video
+        <LazyVideo
+          src={resvid}
           autoPlay
           loop
           muted
           playsInline
           className="w-full h-full object-cover opacity-40 blur-[2px]"
-        >
-          <source src={resvid} type="video/mp4" />
-        </video>
+        />
         <div className="absolute inset-0 bg-background/20" />
       </div>
 

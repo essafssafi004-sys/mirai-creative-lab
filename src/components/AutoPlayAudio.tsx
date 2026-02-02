@@ -39,7 +39,7 @@ const AutoPlayAudio: React.FC<Props> = ({
     const audio = new Audio(src);
     audio.loop = loop;
     audio.volume = volume;
-    audio.preload = "auto";
+    audio.preload = "metadata";
     audio.muted = autoplayMuted;
 
     audioRef.current = audio;
