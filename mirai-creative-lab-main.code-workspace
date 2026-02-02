@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../untitled folder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mirai-creative-lab-main"
+	}
+}
