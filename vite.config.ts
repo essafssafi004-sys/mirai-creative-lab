@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Set the base path to your repository name for GitHub Pages (e.g., "/repo-name/")
   // If you use a custom domain or user page (username.github.io), set this to "/"
-  base: mode === "production" ? (process.env.VITE_BASE ?? "/mirai-creative-lab/") : "/",
+  base: mode === "production" ? (process.env.VITE_BASE ?? "/") : "/",
   server: {
     host: "::",
     port: 8080,
