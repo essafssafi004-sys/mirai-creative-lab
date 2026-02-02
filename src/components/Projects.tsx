@@ -1,36 +1,41 @@
 import { ExternalLink, Shirt } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import resvid from "@/assets/resvid.mp4";
+import futureImg from "@/assets/future.webp";
+import chaosImg from "@/assets/chaos.webp";
+import resurgenceImg from "@/assets/resurgence.webp";
+import lightImg from "@/assets/light-it-up.webp";
+import trunksImg from "@/assets/trunks3.webp";
 
 // Collection images: place images in `src/assets/collections/` and name them to match the `image` paths below (e.g., `future.jpg`).
 const collections = [
   {
     name: "Future",
-    image: "/src/assets/future.png",
+    image: futureImg,
     description: "Forward-thinking designs that embrace innovation and modern streetwear aesthetics.",
     tags: ["Streetwear", "Original Design"]
   },
   {
     name: "Chaos",
-    image: "/src/assets/chaos.png",
+    image: chaosImg,
     description: "Bold designs exploring disruption and raw energy in contemporary fashion.",
     tags: ["Streetwear", "Original Design"]
   },
   {
     name: "Resurgence",
-    image: "/src/assets/resurgence.png",
+    image: resurgenceImg,
     description: "A collection symbolizing rebirth and new beginnings through powerful visual motifs.",
     tags: ["Limited Edition", "Collaboration"]
   },
   {
     name: "Light It Up",
-    image: "/src/assets/light-it-up.png",
+    image: lightImg,
     description: "Vibrant pieces that capture energy and movement, created in collaboration with Light club.",
     tags: ["Collaboration", "Light Club"]
   },
   {
     name: "Trunks",
-    image: "/src/assets/trunks3.png",
+    image: trunksImg,
     description: "Anime-inspired collection merging pop culture with contemporary fashion.",
     tags: ["Anime", "Pop Culture"]
   }
