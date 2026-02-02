@@ -1,6 +1,6 @@
 import { ArrowDown, Instagram, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import backgroundImg from "@/assets/background.png";
+import backgroundImg from "@/assets/background.webp";
 
 // Replace this with your video URL or import
 const heroVideoUrl = ""; // Add your video URL here
