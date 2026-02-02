@@ -2,7 +2,7 @@ import { ExternalLink, Video, Camera, Megaphone, Instagram } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import LazyVideo from "./LazyVideo";
-import tvVid from "@/assets/videos/1026.mp4";
+import tvVid from "@/assets/1026.mp4";
 
 const clients = [
   {

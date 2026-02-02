@@ -13,7 +13,7 @@ import AutoPlayAudio from "@/components/AutoPlayAudio";
 import Preloader from "@/components/Preloader";
 
 // Import assets to ensure they are processed by Vite
-import preloaderVid from "@/assets/videos/dbd.mp4";
+import preloaderVid from "@/assets/dbd.mp4";
 import backgroundMusic from "@/assets/music/fashion-killa.mp3";
 
 const SECTION_IDS = ["about", "work", "mirai-studio", "experience", "skills", "contact"];
